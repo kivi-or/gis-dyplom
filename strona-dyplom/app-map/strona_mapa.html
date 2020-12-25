@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="to jest strona o danych systemu w języka UML" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script> 
+    <title>Projekt dyplomowy GIS AKiwior</title>
+  </head>
+  <style>
+     .red-text {
+       color:red;
+      }
+     .pobieracz {
+       color:red;
+       margin:25px;
+       background-color: lightgrey;
+      }
+      #mojamapa { 
+        margin: 25px; border-style: solid; padding : 50px; width: 50%: ; height: 400px; 
+      }
+      #mojamapa2 { 
+        margin: 25px; border-style: solid; padding : 50px; width: 50%: ; height: 400px; 
+      }
+  </style>
+  <body>
+	  <div><h1> Proszę o wyrozumiałość. To jest wersja rozwojowa aplikacji. By warstwa poprawnie się wyświetliła należy ją nazwać 'warstwa' i zapisać w dowolnum pliku gpkg. Następpnie plik należy wysłać za pomocą poniższego formularza. </h1> </div> 
+	  <hr/>  
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+     Wybierz plik do pobrania
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload" name="submit">
+    </form>
+    <hr/>
+    <h1 class='red-text'>Podgląd mapy - działa wolno :) bo i serwer słabiutki </h1>
+    <hr/>
+    
+   
+  
+<div id="mojamapa"></div>
+<script type="text/javascript">var mojamapa = L.map('mojamapa').setView([54.50908, 18.54219], 20);
+
+  L.tileLayer.wms('http://akiwior.pl/geoserver/ows?',{layers: 'aplikacja'}).addTo(mojamapa);
+
+</script>
+
+
+<div id="mojamapa2"></div>
+<script type="text/javascript">var mojamapa2 = L.map('mojamapa2').setView([54.50908, 18.54219], 20);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mojamapa2);
+ L.tileLayer.wms('http://akiwior.pl/geoserver/ows?',{layers: 'aplikacja', transparent: 'true', format: 'image/png'}).addTo(mojamapa2);
+
+</script>
+
+  </body>
+</html>
