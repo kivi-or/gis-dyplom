@@ -9,6 +9,6 @@ Projekt powstał pod okiem profesora Jacka Urbańskiego.
 2. STWORZENIE DOMENY - "http://akiwior.pl/"
 3. INSTALACJA OPROGRAMOWANIA - GEOSERVER 20.16, POSTGRESQL 12, PYTHON 3.8, GDAL. 
 4. URUCHOMIENIE STRONY -  KOD HTML POWSTAŁ NA BAZIE DARMOWEGO SZABLONU "https://templatemo.com/tm-530-mini-profile".
-5. OPRACAOWANIE PROJEKTU ZA POMOCĄ UML 2.0
-6. URUCHOMINE ULOADERA PLIKÓW ORAZ SKRYPTU PHP. 
+5. OPRACAOWANIE PROJEKTU ZA POMOCĄ UML 2.0 - schematy znajdują się w katalogu gis-dplom/strona-dyplom/uml 
+6. URUCHOMINE ULOADERA PLIKÓW ORAZ SKRYPTU PHP. - skrypt znajduje się w gis-dplom/strona-dyplom/app-map
 
