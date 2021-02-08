@@ -1,0 +1,2236 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.10.11-A Coruña">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+      <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>168</srsid>
+      <srid>2177</srid>
+      <authid>EPSG:2177</authid>
+      <description>ETRS89 / Poland CS2000 zone 6</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="Adresy_ee637207_8d81_4934_93c5_b2d2f8d017f7" providerKey="WFS" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:2177' typename='geoportal:adresy' url='https://geoportal.slupsk.eu/geoserver/ows' url='https://geoportal.slupsk.eu/geoserver/ows?version=1.0.0' version='auto' table=&quot;&quot; sql=" legend_exp="" checked="Qt::Unchecked" name="Adresy" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="raster_z_aplikacji_0bd6f0f6_fbb4_4f3c_ac1d_f7b8a5340e3a" providerKey="wms" source="crs=EPSG:2177&amp;dpiMode=7&amp;format=image/png&amp;layers=dyplom:raster_z_aplikacji&amp;styles&amp;url=http://akiwior.pl:8080/geoserver/ows?version%3D1.1.1" legend_exp="" checked="Qt::Checked" name="raster_z_aplikacji" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="Działki_ed822525_528d_4155_9c0b_c2b9f0e70489" providerKey="WFS" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:2177' typename='geoportal:dzialki' url='https://geoportal.slupsk.eu/geoserver/ows' url='https://geoportal.slupsk.eu/geoserver/ows?version=1.0.0' version='auto' table=&quot;&quot; sql=" legend_exp="" checked="Qt::Checked" name="Działki" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7" providerKey="ogr" source="../../URZAD/projekt-rewitalizacja/punkty_adresowe_jdnostki.shp|layername=punkty_adresowe_jdnostki" legend_exp="" checked="Qt::Unchecked" name="punkty_adresowe_jdnostki" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="lud_rewit_2206f318_154f_4c4b_85ad_abaab9995048" providerKey="delimitedtext" source="../../URZAD/projekt-rewitalizacja/dane_ludnosc/lud-rewit.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" legend_exp="" checked="Qt::Checked" name="lud-rewit" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="poloczone_193ff32c_ad88_42ee_8d61_cc6bd78f1a9c" providerKey="ogr" source="../../URZAD/projekt-rewitalizacja/poloczone.shp|layername=poloczone" legend_exp="" checked="Qt::Unchecked" name="poloczone" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="jednostki_78c7732a_71f4_414b_8aa5_bf3d2304cdce" providerKey="ogr" source="../../URZAD/projekt-rewitalizacja/jednostki.shp|layername=jednostki" legend_exp="" checked="Qt::Unchecked" name="jednostki" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7</item>
+      <item>jednostki_78c7732a_71f4_414b_8aa5_bf3d2304cdce</item>
+      <item>Działki_ed822525_528d_4155_9c0b_c2b9f0e70489</item>
+      <item>poloczone_193ff32c_ad88_42ee_8d61_cc6bd78f1a9c</item>
+      <item>Adresy_ee637207_8d81_4934_93c5_b2d2f8d017f7</item>
+      <item>raster_z_aplikacji_0bd6f0f6_fbb4_4f3c_ac1d_f7b8a5340e3a</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings type="1" mode="2" tolerance="12" intersection-snapping="0" enabled="1" unit="1">
+    <individual-layer-settings>
+      <layer-setting id="Adresy_ee637207_8d81_4934_93c5_b2d2f8d017f7" type="1" tolerance="12" units="1" enabled="1"/>
+      <layer-setting id="poloczone_193ff32c_ad88_42ee_8d61_cc6bd78f1a9c" type="1" tolerance="12" units="1" enabled="1"/>
+      <layer-setting id="punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7" type="1" tolerance="12" units="1" enabled="1"/>
+      <layer-setting id="Działki_ed822525_528d_4155_9c0b_c2b9f0e70489" type="1" tolerance="12" units="1" enabled="1"/>
+      <layer-setting id="jednostki_78c7732a_71f4_414b_8aa5_bf3d2304cdce" type="1" tolerance="12" units="1" enabled="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>6416651.83664656989276409</xmin>
+      <ymin>6028634.43276660330593586</ymin>
+      <xmax>6450643.41104723326861858</xmax>
+      <ymax>6055943.2695645559579134</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>168</srsid>
+        <srid>2177</srid>
+        <authid>EPSG:2177</authid>
+        <description>ETRS89 / Poland CS2000 zone 6</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <DataPlotly>
+    <Option type="Map">
+      <Option type="Map" name="dynamic_properties">
+        <Option type="QString" name="name" value=""/>
+        <Option name="properties"/>
+        <Option type="QString" name="type" value="collection"/>
+      </Option>
+      <Option type="Map" name="plot_layout">
+        <Option type="QString" name="additional_info_expression" value=""/>
+        <Option type="QString" name="bar_mode" value="group"/>
+        <Option type="double" name="bargaps" value="0"/>
+        <Option type="bool" name="bins_check" value="false"/>
+        <Option type="bool" name="legend" value="true"/>
+        <Option type="QString" name="legend_orientation" value="v"/>
+        <Option type="invalid" name="legend_title"/>
+        <Option type="Map" name="polar">
+          <Option type="Map" name="angularaxis">
+            <Option type="QString" name="direction" value="clockwise"/>
+          </Option>
+        </Option>
+        <Option type="Map" name="range_slider">
+          <Option type="int" name="borderwidth" value="1"/>
+          <Option type="bool" name="visible" value="false"/>
+        </Option>
+        <Option type="QString" name="title" value=""/>
+        <Option type="invalid" name="x_inv"/>
+        <Option type="QString" name="x_title" value=""/>
+        <Option type="QString" name="x_type" value="linear"/>
+        <Option type="invalid" name="xaxis"/>
+        <Option type="invalid" name="y_inv"/>
+        <Option type="QString" name="y_title" value=""/>
+        <Option type="QString" name="y_type" value="linear"/>
+        <Option type="QString" name="z_title" value=""/>
+      </Option>
+      <Option type="Map" name="plot_properties">
+        <Option type="invalid" name="additional_hover_text"/>
+        <Option type="int" name="bins" value="10"/>
+        <Option type="QString" name="box_orientation" value="v"/>
+        <Option type="bool" name="box_outliers" value="false"/>
+        <Option type="bool" name="box_stat" value="false"/>
+        <Option type="invalid" name="color_scale"/>
+        <Option type="bool" name="color_scale_data_defined_in_check" value="false"/>
+        <Option type="bool" name="color_scale_data_defined_in_invert_check" value="false"/>
+        <Option type="QString" name="cont_type" value="fill"/>
+        <Option type="QString" name="contour_type_combo" value="Fill"/>
+        <Option type="bool" name="cumulative" value="false"/>
+        <Option type="List" name="custom">
+          <Option type="QString" value=""/>
+        </Option>
+        <Option type="QString" name="hover_text" value="all"/>
+        <Option type="QString" name="in_color" value="#8ebad9"/>
+        <Option type="bool" name="invert_color_scale" value="false"/>
+        <Option type="QString" name="invert_hist" value="increasing"/>
+        <Option type="QString" name="line_combo" value="Solid Line"/>
+        <Option type="QString" name="line_dash" value="solid"/>
+        <Option type="QString" name="marker" value="markers"/>
+        <Option type="double" name="marker_size" value="10"/>
+        <Option type="int" name="marker_symbol" value="0"/>
+        <Option type="QString" name="marker_type_combo" value="Points"/>
+        <Option type="double" name="marker_width" value="1"/>
+        <Option type="QString" name="name" value=""/>
+        <Option type="QString" name="normalization" value=""/>
+        <Option type="double" name="opacity" value="1"/>
+        <Option type="QString" name="out_color" value="#1f77b4"/>
+        <Option type="QString" name="point_combo" value=""/>
+        <Option type="bool" name="selected_features_only" value="false"/>
+        <Option type="bool" name="show_colorscale_legend" value="false"/>
+        <Option type="bool" name="show_lines" value="true"/>
+        <Option type="bool" name="show_lines_check" value="true"/>
+        <Option type="bool" name="show_mean_line" value="true"/>
+        <Option type="QString" name="violin_side" value="both"/>
+        <Option type="bool" name="visible_features_only" value="false"/>
+        <Option type="QString" name="x_name" value=""/>
+        <Option type="QString" name="y_name" value=""/>
+        <Option type="QString" name="z_name" value=""/>
+      </Option>
+      <Option type="QString" name="plot_type" value="scatter"/>
+      <Option type="QString" name="source_layer_id" value="punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7"/>
+    </Option>
+  </DataPlotly>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Unchecked" name="Adresy" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="Adresy_ee637207_8d81_4934_93c5_b2d2f8d017f7"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Checked" name="raster_z_aplikacji" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="raster_z_aplikacji_0bd6f0f6_fbb4_4f3c_ac1d_f7b8a5340e3a"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Checked" name="Działki" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Działki_ed822525_528d_4155_9c0b_c2b9f0e70489"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Unchecked" name="punkty_adresowe_jdnostki" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Checked" name="lud-rewit" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="lud_rewit_2206f318_154f_4c4b_85ad_abaab9995048"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Unchecked" name="poloczone" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="poloczone_193ff32c_ad88_42ee_8d61_cc6bd78f1a9c"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" checked="Qt::Unchecked" name="jednostki" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="jednostki_78c7732a_71f4_414b_8aa5_bf3d2304cdce"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" wkbType="Point" styleCategories="AllStyleCategories" labelsEnabled="0" geometry="Point" simplifyAlgorithm="0" simplifyLocal="1" minScale="1e+08" maxScale="0" type="vector" readOnly="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>6433220.10059598181396723</xmin>
+        <ymin>6035244.94454719312489033</ymin>
+        <xmax>6441124.73961943108588457</xmax>
+        <ymax>6041094.25296739116311073</ymax>
+      </extent>
+      <id>Adresy_ee637207_8d81_4934_93c5_b2d2f8d017f7</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:2177' typename='geoportal:adresy' url='https://geoportal.slupsk.eu/geoserver/ows' url='https://geoportal.slupsk.eu/geoserver/ows?version=1.0.0' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Adresy</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>168</srsid>
+          <srid>2177</srid>
+          <authid>EPSG:2177</authid>
+          <description>ETRS89 / Poland CS2000 zone 6</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;dzialka_id&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="mslink">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="miejscowosc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kod">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="poczta">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="przedr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="przedrostek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ulica">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ulica_pelna">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_adr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_adr2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dzialka_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="budynek_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="just">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="mslink"/>
+        <alias index="1" name="" field="miejscowosc"/>
+        <alias index="2" name="" field="kod"/>
+        <alias index="3" name="" field="poczta"/>
+        <alias index="4" name="" field="przedr"/>
+        <alias index="5" name="" field="przedrostek"/>
+        <alias index="6" name="" field="ulica"/>
+        <alias index="7" name="" field="ulica_pelna"/>
+        <alias index="8" name="" field="nr_adr"/>
+        <alias index="9" name="" field="nr_adr2"/>
+        <alias index="10" name="" field="dzialka_id"/>
+        <alias index="11" name="" field="budynek_id"/>
+        <alias index="12" name="" field="kat"/>
+        <alias index="13" name="" field="just"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="mslink"/>
+        <default expression="" applyOnUpdate="0" field="miejscowosc"/>
+        <default expression="" applyOnUpdate="0" field="kod"/>
+        <default expression="" applyOnUpdate="0" field="poczta"/>
+        <default expression="" applyOnUpdate="0" field="przedr"/>
+        <default expression="" applyOnUpdate="0" field="przedrostek"/>
+        <default expression="" applyOnUpdate="0" field="ulica"/>
+        <default expression="" applyOnUpdate="0" field="ulica_pelna"/>
+        <default expression="" applyOnUpdate="0" field="nr_adr"/>
+        <default expression="" applyOnUpdate="0" field="nr_adr2"/>
+        <default expression="" applyOnUpdate="0" field="dzialka_id"/>
+        <default expression="" applyOnUpdate="0" field="budynek_id"/>
+        <default expression="" applyOnUpdate="0" field="kat"/>
+        <default expression="" applyOnUpdate="0" field="just"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="mslink" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="miejscowosc" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="kod" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="poczta" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="przedr" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="przedrostek" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="ulica" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="ulica_pelna" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_adr" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_adr2" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="dzialka_id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="budynek_id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="kat" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="just" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="mslink" exp=""/>
+        <constraint desc="" field="miejscowosc" exp=""/>
+        <constraint desc="" field="kod" exp=""/>
+        <constraint desc="" field="poczta" exp=""/>
+        <constraint desc="" field="przedr" exp=""/>
+        <constraint desc="" field="przedrostek" exp=""/>
+        <constraint desc="" field="ulica" exp=""/>
+        <constraint desc="" field="ulica_pelna" exp=""/>
+        <constraint desc="" field="nr_adr" exp=""/>
+        <constraint desc="" field="nr_adr2" exp=""/>
+        <constraint desc="" field="dzialka_id" exp=""/>
+        <constraint desc="" field="budynek_id" exp=""/>
+        <constraint desc="" field="kat" exp=""/>
+        <constraint desc="" field="just" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" type="field" name="mslink" hidden="0"/>
+          <column width="-1" type="field" name="miejscowosc" hidden="0"/>
+          <column width="-1" type="field" name="kod" hidden="0"/>
+          <column width="-1" type="field" name="poczta" hidden="0"/>
+          <column width="-1" type="field" name="przedr" hidden="0"/>
+          <column width="-1" type="field" name="przedrostek" hidden="0"/>
+          <column width="-1" type="field" name="ulica" hidden="0"/>
+          <column width="-1" type="field" name="ulica_pelna" hidden="0"/>
+          <column width="-1" type="field" name="nr_adr" hidden="0"/>
+          <column width="-1" type="field" name="nr_adr2" hidden="0"/>
+          <column width="-1" type="field" name="dzialka_id" hidden="0"/>
+          <column width="-1" type="field" name="budynek_id" hidden="0"/>
+          <column width="-1" type="field" name="kat" hidden="0"/>
+          <column width="-1" type="field" name="just" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"dzialka_id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" wkbType="Polygon" styleCategories="AllStyleCategories" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" minScale="1e+08" maxScale="0" type="vector" readOnly="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>6431990.61000000033527613</xmin>
+        <ymin>6032931.25</ymin>
+        <xmax>6441965.46999999973922968</xmax>
+        <ymax>6041373.94000000040978193</ymax>
+      </extent>
+      <id>Działki_ed822525_528d_4155_9c0b_c2b9f0e70489</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:2177' typename='geoportal:dzialki' url='https://geoportal.slupsk.eu/geoserver/ows' url='https://geoportal.slupsk.eu/geoserver/ows?version=1.0.0' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Działki</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>168</srsid>
+          <srid>2177</srid>
+          <authid>EPSG:2177</authid>
+          <description>ETRS89 / Poland CS2000 zone 6</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+            <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="231,113,72,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="77,120,229,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="mslink">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dzialka_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_dz">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id_obr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arkusz_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powierzchnia_ew">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arkusz">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="polozenie">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rej_zab">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rejstat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="obwspis">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id_jr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_jr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uzytki">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uzytki_pow">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arowa">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="zastrzezona">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sporna">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uwagi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="grupa_rej">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="podgrupa_rej">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wl_mieszane">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="atrybuty">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geom_point">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opis">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="obreb">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="grrej_nazwa">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opis2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="keywords">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="mslink"/>
+        <alias index="1" name="" field="dzialka_id"/>
+        <alias index="2" name="" field="nr_dz"/>
+        <alias index="3" name="" field="id_obr"/>
+        <alias index="4" name="" field="arkusz_id"/>
+        <alias index="5" name="" field="powierzchnia_ew"/>
+        <alias index="6" name="" field="arkusz"/>
+        <alias index="7" name="" field="kw"/>
+        <alias index="8" name="" field="polozenie"/>
+        <alias index="9" name="" field="rej_zab"/>
+        <alias index="10" name="" field="rejstat"/>
+        <alias index="11" name="" field="obwspis"/>
+        <alias index="12" name="" field="id_jr"/>
+        <alias index="13" name="" field="nr_jr"/>
+        <alias index="14" name="" field="uzytki"/>
+        <alias index="15" name="" field="uzytki_pow"/>
+        <alias index="16" name="" field="arowa"/>
+        <alias index="17" name="" field="zastrzezona"/>
+        <alias index="18" name="" field="sporna"/>
+        <alias index="19" name="" field="uwagi"/>
+        <alias index="20" name="" field="grupa_rej"/>
+        <alias index="21" name="" field="podgrupa_rej"/>
+        <alias index="22" name="" field="wl_mieszane"/>
+        <alias index="23" name="" field="atrybuty"/>
+        <alias index="24" name="" field="geom_point"/>
+        <alias index="25" name="" field="opis"/>
+        <alias index="26" name="" field="obreb"/>
+        <alias index="27" name="" field="grrej_nazwa"/>
+        <alias index="28" name="" field="opis2"/>
+        <alias index="29" name="" field="keywords"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="mslink"/>
+        <default expression="" applyOnUpdate="0" field="dzialka_id"/>
+        <default expression="" applyOnUpdate="0" field="nr_dz"/>
+        <default expression="" applyOnUpdate="0" field="id_obr"/>
+        <default expression="" applyOnUpdate="0" field="arkusz_id"/>
+        <default expression="" applyOnUpdate="0" field="powierzchnia_ew"/>
+        <default expression="" applyOnUpdate="0" field="arkusz"/>
+        <default expression="" applyOnUpdate="0" field="kw"/>
+        <default expression="" applyOnUpdate="0" field="polozenie"/>
+        <default expression="" applyOnUpdate="0" field="rej_zab"/>
+        <default expression="" applyOnUpdate="0" field="rejstat"/>
+        <default expression="" applyOnUpdate="0" field="obwspis"/>
+        <default expression="" applyOnUpdate="0" field="id_jr"/>
+        <default expression="" applyOnUpdate="0" field="nr_jr"/>
+        <default expression="" applyOnUpdate="0" field="uzytki"/>
+        <default expression="" applyOnUpdate="0" field="uzytki_pow"/>
+        <default expression="" applyOnUpdate="0" field="arowa"/>
+        <default expression="" applyOnUpdate="0" field="zastrzezona"/>
+        <default expression="" applyOnUpdate="0" field="sporna"/>
+        <default expression="" applyOnUpdate="0" field="uwagi"/>
+        <default expression="" applyOnUpdate="0" field="grupa_rej"/>
+        <default expression="" applyOnUpdate="0" field="podgrupa_rej"/>
+        <default expression="" applyOnUpdate="0" field="wl_mieszane"/>
+        <default expression="" applyOnUpdate="0" field="atrybuty"/>
+        <default expression="" applyOnUpdate="0" field="geom_point"/>
+        <default expression="" applyOnUpdate="0" field="opis"/>
+        <default expression="" applyOnUpdate="0" field="obreb"/>
+        <default expression="" applyOnUpdate="0" field="grrej_nazwa"/>
+        <default expression="" applyOnUpdate="0" field="opis2"/>
+        <default expression="" applyOnUpdate="0" field="keywords"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="mslink" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="dzialka_id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_dz" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id_obr" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="arkusz_id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="powierzchnia_ew" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="arkusz" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="kw" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="polozenie" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="rej_zab" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="rejstat" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="obwspis" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id_jr" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_jr" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="uzytki" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="uzytki_pow" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="arowa" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="zastrzezona" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="sporna" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="uwagi" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="grupa_rej" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="podgrupa_rej" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="wl_mieszane" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="atrybuty" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="geom_point" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opis" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="obreb" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="grrej_nazwa" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opis2" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="keywords" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="mslink" exp=""/>
+        <constraint desc="" field="dzialka_id" exp=""/>
+        <constraint desc="" field="nr_dz" exp=""/>
+        <constraint desc="" field="id_obr" exp=""/>
+        <constraint desc="" field="arkusz_id" exp=""/>
+        <constraint desc="" field="powierzchnia_ew" exp=""/>
+        <constraint desc="" field="arkusz" exp=""/>
+        <constraint desc="" field="kw" exp=""/>
+        <constraint desc="" field="polozenie" exp=""/>
+        <constraint desc="" field="rej_zab" exp=""/>
+        <constraint desc="" field="rejstat" exp=""/>
+        <constraint desc="" field="obwspis" exp=""/>
+        <constraint desc="" field="id_jr" exp=""/>
+        <constraint desc="" field="nr_jr" exp=""/>
+        <constraint desc="" field="uzytki" exp=""/>
+        <constraint desc="" field="uzytki_pow" exp=""/>
+        <constraint desc="" field="arowa" exp=""/>
+        <constraint desc="" field="zastrzezona" exp=""/>
+        <constraint desc="" field="sporna" exp=""/>
+        <constraint desc="" field="uwagi" exp=""/>
+        <constraint desc="" field="grupa_rej" exp=""/>
+        <constraint desc="" field="podgrupa_rej" exp=""/>
+        <constraint desc="" field="wl_mieszane" exp=""/>
+        <constraint desc="" field="atrybuty" exp=""/>
+        <constraint desc="" field="geom_point" exp=""/>
+        <constraint desc="" field="opis" exp=""/>
+        <constraint desc="" field="obreb" exp=""/>
+        <constraint desc="" field="grrej_nazwa" exp=""/>
+        <constraint desc="" field="opis2" exp=""/>
+        <constraint desc="" field="keywords" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" styleCategories="AllStyleCategories" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" minScale="1e+08" maxScale="0" type="vector" readOnly="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>6431990.61000000033527613</xmin>
+        <ymin>6032931.25040000025182962</ymin>
+        <xmax>6441965.46989999990910292</xmax>
+        <ymax>6041373.94020000007003546</ymax>
+      </extent>
+      <id>jednostki_78c7732a_71f4_414b_8aa5_bf3d2304cdce</id>
+      <datasource>../../URZAD/projekt-rewitalizacja/jednostki.shp|layername=jednostki</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>jednostki</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>168</srsid>
+          <srid>2177</srid>
+          <authid>EPSG:2177</authid>
+          <description>ETRS89 / Poland CS2000 zone 6</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+            <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="60,49,164,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1.46"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_jed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nazwa_jed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powierzchn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="nr_jed"/>
+        <alias index="3" name="" field="nazwa_jed"/>
+        <alias index="4" name="" field="powierzchn"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="fid"/>
+        <default expression="" applyOnUpdate="0" field="nr_jed"/>
+        <default expression="" applyOnUpdate="0" field="nazwa_jed"/>
+        <default expression="" applyOnUpdate="0" field="powierzchn"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="fid" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_jed" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nazwa_jed" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="powierzchn" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="nr_jed" exp=""/>
+        <constraint desc="" field="nazwa_jed" exp=""/>
+        <constraint desc="" field="powierzchn" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="fid" hidden="0"/>
+          <column width="-1" type="field" name="nr_jed" hidden="0"/>
+          <column width="-1" type="field" name="nazwa_jed" hidden="0"/>
+          <column width="-1" type="field" name="powierzchn" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer maxScale="0" readOnly="0" refreshOnNotifyMessage="" type="vector" minScale="1e+08" autoRefreshTime="0" wkbType="NoGeometry" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" geometry="No geometry">
+      <id>lud_rewit_2206f318_154f_4c4b_85ad_abaab9995048</id>
+      <datasource>file:../../URZAD/projekt-rewitalizacja/dane_ludnosc/lud-rewit.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lud-rewit</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;field_1&quot;"/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Adres">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Budynki mieszkalne">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="JU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Ilość mieszkańców ogółem">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Liczba osób długotrwale bezrobotnych">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Liczba bezrobotnych ogółem w podziale na płeć">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_9">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wskaźnik poziomu bezrobocia (l. os.bezrob ogółem/l. os. w wieku produkcyjnym*100)">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_11">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_12">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wiek produkcyjny">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Mężczyźni w wieku produkcyjnym  (18-64 lat)">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_15">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Odsetek osób w wieku produkcyjnym w ogólnej liczbie ludności">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_17">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_18">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wiek poprodukcyjny">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_21">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Odsetek osób w wieku poprodukcyjnym w ogólnej liczbie ludności">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_23">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_24">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wiek przedprodukcyjny K+M (0-17 lat)">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Odsetek osób w wieku przedprodukcyjnym do ogólnej liczby mieszkańców">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_27">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="field_1"/>
+        <alias index="1" name="" field="Adres"/>
+        <alias index="2" name="" field="Budynki mieszkalne"/>
+        <alias index="3" name="" field="field_4"/>
+        <alias index="4" name="" field="JU"/>
+        <alias index="5" name="" field="Ilość mieszkańców ogółem"/>
+        <alias index="6" name="" field="Liczba osób długotrwale bezrobotnych"/>
+        <alias index="7" name="" field="Liczba bezrobotnych ogółem w podziale na płeć"/>
+        <alias index="8" name="" field="field_9"/>
+        <alias index="9" name="" field="Wskaźnik poziomu bezrobocia (l. os.bezrob ogółem/l. os. w wieku produkcyjnym*100)"/>
+        <alias index="10" name="" field="field_11"/>
+        <alias index="11" name="" field="field_12"/>
+        <alias index="12" name="" field="Wiek produkcyjny"/>
+        <alias index="13" name="" field="Mężczyźni w wieku produkcyjnym  (18-64 lat)"/>
+        <alias index="14" name="" field="field_15"/>
+        <alias index="15" name="" field="Odsetek osób w wieku produkcyjnym w ogólnej liczbie ludności"/>
+        <alias index="16" name="" field="field_17"/>
+        <alias index="17" name="" field="field_18"/>
+        <alias index="18" name="" field="Wiek poprodukcyjny"/>
+        <alias index="19" name="" field="field_20"/>
+        <alias index="20" name="" field="field_21"/>
+        <alias index="21" name="" field="Odsetek osób w wieku poprodukcyjnym w ogólnej liczbie ludności"/>
+        <alias index="22" name="" field="field_23"/>
+        <alias index="23" name="" field="field_24"/>
+        <alias index="24" name="" field="Wiek przedprodukcyjny K+M (0-17 lat)"/>
+        <alias index="25" name="" field="Odsetek osób w wieku przedprodukcyjnym do ogólnej liczby mieszkańców"/>
+        <alias index="26" name="" field="field_27"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="field_1"/>
+        <default expression="" applyOnUpdate="0" field="Adres"/>
+        <default expression="" applyOnUpdate="0" field="Budynki mieszkalne"/>
+        <default expression="" applyOnUpdate="0" field="field_4"/>
+        <default expression="" applyOnUpdate="0" field="JU"/>
+        <default expression="" applyOnUpdate="0" field="Ilość mieszkańców ogółem"/>
+        <default expression="" applyOnUpdate="0" field="Liczba osób długotrwale bezrobotnych"/>
+        <default expression="" applyOnUpdate="0" field="Liczba bezrobotnych ogółem w podziale na płeć"/>
+        <default expression="" applyOnUpdate="0" field="field_9"/>
+        <default expression="" applyOnUpdate="0" field="Wskaźnik poziomu bezrobocia (l. os.bezrob ogółem/l. os. w wieku produkcyjnym*100)"/>
+        <default expression="" applyOnUpdate="0" field="field_11"/>
+        <default expression="" applyOnUpdate="0" field="field_12"/>
+        <default expression="" applyOnUpdate="0" field="Wiek produkcyjny"/>
+        <default expression="" applyOnUpdate="0" field="Mężczyźni w wieku produkcyjnym  (18-64 lat)"/>
+        <default expression="" applyOnUpdate="0" field="field_15"/>
+        <default expression="" applyOnUpdate="0" field="Odsetek osób w wieku produkcyjnym w ogólnej liczbie ludności"/>
+        <default expression="" applyOnUpdate="0" field="field_17"/>
+        <default expression="" applyOnUpdate="0" field="field_18"/>
+        <default expression="" applyOnUpdate="0" field="Wiek poprodukcyjny"/>
+        <default expression="" applyOnUpdate="0" field="field_20"/>
+        <default expression="" applyOnUpdate="0" field="field_21"/>
+        <default expression="" applyOnUpdate="0" field="Odsetek osób w wieku poprodukcyjnym w ogólnej liczbie ludności"/>
+        <default expression="" applyOnUpdate="0" field="field_23"/>
+        <default expression="" applyOnUpdate="0" field="field_24"/>
+        <default expression="" applyOnUpdate="0" field="Wiek przedprodukcyjny K+M (0-17 lat)"/>
+        <default expression="" applyOnUpdate="0" field="Odsetek osób w wieku przedprodukcyjnym do ogólnej liczby mieszkańców"/>
+        <default expression="" applyOnUpdate="0" field="field_27"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_1" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Adres" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Budynki mieszkalne" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_4" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="JU" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Ilość mieszkańców ogółem" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Liczba osób długotrwale bezrobotnych" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Liczba bezrobotnych ogółem w podziale na płeć" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_9" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Wskaźnik poziomu bezrobocia (l. os.bezrob ogółem/l. os. w wieku produkcyjnym*100)" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_11" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_12" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Wiek produkcyjny" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Mężczyźni w wieku produkcyjnym  (18-64 lat)" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_15" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Odsetek osób w wieku produkcyjnym w ogólnej liczbie ludności" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_17" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_18" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Wiek poprodukcyjny" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_20" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_21" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Odsetek osób w wieku poprodukcyjnym w ogólnej liczbie ludności" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_23" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_24" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Wiek przedprodukcyjny K+M (0-17 lat)" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Odsetek osób w wieku przedprodukcyjnym do ogólnej liczby mieszkańców" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="field_27" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="field_1" exp=""/>
+        <constraint desc="" field="Adres" exp=""/>
+        <constraint desc="" field="Budynki mieszkalne" exp=""/>
+        <constraint desc="" field="field_4" exp=""/>
+        <constraint desc="" field="JU" exp=""/>
+        <constraint desc="" field="Ilość mieszkańców ogółem" exp=""/>
+        <constraint desc="" field="Liczba osób długotrwale bezrobotnych" exp=""/>
+        <constraint desc="" field="Liczba bezrobotnych ogółem w podziale na płeć" exp=""/>
+        <constraint desc="" field="field_9" exp=""/>
+        <constraint desc="" field="Wskaźnik poziomu bezrobocia (l. os.bezrob ogółem/l. os. w wieku produkcyjnym*100)" exp=""/>
+        <constraint desc="" field="field_11" exp=""/>
+        <constraint desc="" field="field_12" exp=""/>
+        <constraint desc="" field="Wiek produkcyjny" exp=""/>
+        <constraint desc="" field="Mężczyźni w wieku produkcyjnym  (18-64 lat)" exp=""/>
+        <constraint desc="" field="field_15" exp=""/>
+        <constraint desc="" field="Odsetek osób w wieku produkcyjnym w ogólnej liczbie ludności" exp=""/>
+        <constraint desc="" field="field_17" exp=""/>
+        <constraint desc="" field="field_18" exp=""/>
+        <constraint desc="" field="Wiek poprodukcyjny" exp=""/>
+        <constraint desc="" field="field_20" exp=""/>
+        <constraint desc="" field="field_21" exp=""/>
+        <constraint desc="" field="Odsetek osób w wieku poprodukcyjnym w ogólnej liczbie ludności" exp=""/>
+        <constraint desc="" field="field_23" exp=""/>
+        <constraint desc="" field="field_24" exp=""/>
+        <constraint desc="" field="Wiek przedprodukcyjny K+M (0-17 lat)" exp=""/>
+        <constraint desc="" field="Odsetek osób w wieku przedprodukcyjnym do ogólnej liczby mieszkańców" exp=""/>
+        <constraint desc="" field="field_27" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;JU&quot;">
+        <columns>
+          <column width="-1" type="field" name="field_1" hidden="0"/>
+          <column width="-1" type="field" name="Adres" hidden="0"/>
+          <column width="-1" type="field" name="Budynki mieszkalne" hidden="0"/>
+          <column width="-1" type="field" name="field_4" hidden="0"/>
+          <column width="-1" type="field" name="JU" hidden="0"/>
+          <column width="-1" type="field" name="Ilość mieszkańców ogółem" hidden="0"/>
+          <column width="-1" type="field" name="Liczba osób długotrwale bezrobotnych" hidden="0"/>
+          <column width="-1" type="field" name="Liczba bezrobotnych ogółem w podziale na płeć" hidden="0"/>
+          <column width="-1" type="field" name="field_9" hidden="0"/>
+          <column width="-1" type="field" name="Wskaźnik poziomu bezrobocia (l. os.bezrob ogółem/l. os. w wieku produkcyjnym*100)" hidden="0"/>
+          <column width="-1" type="field" name="field_11" hidden="0"/>
+          <column width="-1" type="field" name="field_12" hidden="0"/>
+          <column width="-1" type="field" name="Wiek produkcyjny" hidden="0"/>
+          <column width="-1" type="field" name="Mężczyźni w wieku produkcyjnym  (18-64 lat)" hidden="0"/>
+          <column width="-1" type="field" name="field_15" hidden="0"/>
+          <column width="-1" type="field" name="Odsetek osób w wieku produkcyjnym w ogólnej liczbie ludności" hidden="0"/>
+          <column width="-1" type="field" name="field_17" hidden="0"/>
+          <column width="-1" type="field" name="field_18" hidden="0"/>
+          <column width="-1" type="field" name="Wiek poprodukcyjny" hidden="0"/>
+          <column width="-1" type="field" name="field_20" hidden="0"/>
+          <column width="-1" type="field" name="field_21" hidden="0"/>
+          <column width="-1" type="field" name="Odsetek osób w wieku poprodukcyjnym w ogólnej liczbie ludności" hidden="0"/>
+          <column width="-1" type="field" name="field_23" hidden="0"/>
+          <column width="-1" type="field" name="field_24" hidden="0"/>
+          <column width="-1" type="field" name="Wiek przedprodukcyjny K+M (0-17 lat)" hidden="0"/>
+          <column width="-1" type="field" name="Odsetek osób w wieku przedprodukcyjnym do ogólnej liczby mieszkańców" hidden="0"/>
+          <column width="-1" type="field" name="field_27" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"field_1"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" styleCategories="AllStyleCategories" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" minScale="1e+08" maxScale="0" type="vector" readOnly="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>6431990.61000000033527613</xmin>
+        <ymin>6032931.25040000025182962</ymin>
+        <xmax>6441965.46989999990910292</xmax>
+        <ymax>6041373.94020000007003546</ymax>
+      </extent>
+      <id>poloczone_193ff32c_ad88_42ee_8d61_cc6bd78f1a9c</id>
+      <datasource>../../URZAD/projekt-rewitalizacja/poloczone.shp|layername=poloczone</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>poloczone</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>168</srsid>
+          <srid>2177</srid>
+          <authid>EPSG:2177</authid>
+          <description>ETRS89 / Poland CS2000 zone 6</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+            <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_jed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nazwa_jed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powierzchn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Ilość mi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="nr_jed"/>
+        <alias index="3" name="" field="nazwa_jed"/>
+        <alias index="4" name="" field="powierzchn"/>
+        <alias index="5" name="" field="Ilość mi"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="fid"/>
+        <default expression="" applyOnUpdate="0" field="nr_jed"/>
+        <default expression="" applyOnUpdate="0" field="nazwa_jed"/>
+        <default expression="" applyOnUpdate="0" field="powierzchn"/>
+        <default expression="" applyOnUpdate="0" field="Ilość mi"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="fid" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_jed" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nazwa_jed" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="powierzchn" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Ilość mi" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="nr_jed" exp=""/>
+        <constraint desc="" field="nazwa_jed" exp=""/>
+        <constraint desc="" field="powierzchn" exp=""/>
+        <constraint desc="" field="Ilość mi" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" wkbType="Point" styleCategories="AllStyleCategories" labelsEnabled="0" geometry="Point" simplifyAlgorithm="0" simplifyLocal="1" minScale="1e+08" maxScale="0" type="vector" readOnly="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>6433341.44000000040978193</xmin>
+        <ymin>6033371.78000000026077032</ymin>
+        <xmax>6441013.40000000037252903</xmax>
+        <ymax>6041085.73000000044703484</ymax>
+      </extent>
+      <id>punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7</id>
+      <datasource>../../URZAD/projekt-rewitalizacja/punkty_adresowe_jdnostki.shp|layername=punkty_adresowe_jdnostki</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>punkty_adresowe_jdnostki</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>168</srsid>
+          <srid>2177</srid>
+          <authid>EPSG:2177</authid>
+          <description>ETRS89 / Poland CS2000 zone 6</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="229,182,54,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_adr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ulica">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dzielnica">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="keywords">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nr_jed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nazwa_jed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="nr_adr"/>
+        <alias index="2" name="" field="ulica"/>
+        <alias index="3" name="" field="dzielnica"/>
+        <alias index="4" name="" field="keywords"/>
+        <alias index="5" name="" field="nr_jed"/>
+        <alias index="6" name="" field="nazwa_jed"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="nr_adr"/>
+        <default expression="" applyOnUpdate="0" field="ulica"/>
+        <default expression="" applyOnUpdate="0" field="dzielnica"/>
+        <default expression="" applyOnUpdate="0" field="keywords"/>
+        <default expression="" applyOnUpdate="0" field="nr_jed"/>
+        <default expression="" applyOnUpdate="0" field="nazwa_jed"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_adr" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="ulica" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="dzielnica" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="keywords" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nr_jed" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="nazwa_jed" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="nr_adr" exp=""/>
+        <constraint desc="" field="ulica" exp=""/>
+        <constraint desc="" field="dzielnica" exp=""/>
+        <constraint desc="" field="keywords" exp=""/>
+        <constraint desc="" field="nr_jed" exp=""/>
+        <constraint desc="" field="nazwa_jed" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="nr_adr" hidden="0"/>
+          <column width="-1" type="field" name="ulica" hidden="0"/>
+          <column width="-1" type="field" name="dzielnica" hidden="0"/>
+          <column width="-1" type="field" name="keywords" hidden="0"/>
+          <column width="-1" type="field" name="nr_jed" hidden="0"/>
+          <column width="-1" type="field" name="nazwa_jed" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer maxScale="0" refreshOnNotifyMessage="" type="raster" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>6431990.61000000033527613</xmin>
+        <ymin>6032373.94000000040978193</ymin>
+        <xmax>6441990.61000000033527613</xmax>
+        <ymax>6041373.94000000040978193</ymax>
+      </extent>
+      <id>raster_z_aplikacji_0bd6f0f6_fbb4_4f3c_ac1d_f7b8a5340e3a</id>
+      <datasource>crs=EPSG:2177&amp;dpiMode=7&amp;format=image/png&amp;layers=dyplom:raster_z_aplikacji&amp;styles&amp;url=http://akiwior.pl:8080/geoserver/ows?version%3D1.1.1</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>raster_z_aplikacji</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / Poland CS2000 zone 6",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland - 16.5°E to 19.5°E"],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>168</srsid>
+          <srid>2177</srid>
+          <authid>EPSG:2177</authid>
+          <description>ETRS89 / Poland CS2000 zone 6</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" type="singlebandcolordata" alphaBand="-1" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeBlue="128" colorizeOn="0" saturation="0" colorizeGreen="128" grayscaleMode="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="punkty_adresowe_jdnostki_ce530903_0a9f_4c6b_b0ad_8685ef2125e7"/>
+    <layer id="jednostki_78c7732a_71f4_414b_8aa5_bf3d2304cdce"/>
+    <layer id="Działki_ed822525_528d_4155_9c0b_c2b9f0e70489"/>
+    <layer id="poloczone_193ff32c_ad88_42ee_8d61_cc6bd78f1a9c"/>
+    <layer id="Adresy_ee637207_8d81_4934_93c5_b2d2f8d017f7"/>
+    <layer id="raster_z_aplikacji_0bd6f0f6_fbb4_4f3c_ac1d_f7b8a5340e3a"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>TataSwinka</author>
+    <creation>2020-11-17T19:13:50</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>
